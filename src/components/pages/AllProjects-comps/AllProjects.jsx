@@ -14,13 +14,15 @@ import tictactoe from '/images/projectsImages/tictactoe.webp'
 import soccerquotes from '/images/projectsImages/soccerquotes.webp'
 import fortunecookies from '/images/projectsImages/fortunecookies.webp'
 import todomachine from '/images/projectsImages/todomachine.webp'
+import jevelin from '/images/projectsImages/jevelin.webp'
+import getanintervention from '/images/projectsImages/getanintervention.webp'
 
 const AllProjects = () => {
 
     const projects = [
         {
             id: 1,
-            src: cardiology,
+            src: getanintervention,
             demo: 'https://spiralyze-nine.vercel.app/',
             code: 'https://github.com/priyanshusharma80/appointmentbooking'
         },
@@ -51,9 +53,9 @@ const AllProjects = () => {
         {
             
             id: 6,
-            src: rickandmorty,
-            demo: 'https://rickandmorty-bydt.netlify.app/',
-            code: 'https://github.com/diegotellezc/RickAndMortyApp'
+            src: jevelin,
+            demo: 'https://jevelin-sigma.vercel.app/',
+            code: 'https://github.com/priyanshusharma80/jevelin'
         },
         // {
         //     id: 7,
@@ -117,7 +119,7 @@ const AllProjects = () => {
         
             <div className='max-w-screen-lg p-4 mx-auto flex flex-col justify-center w-full h-full'>
                 <div className='pb-8'>
-                    <h2 className='text-4xl font-bold inline border-b-4 border-primary-color/40 sm:text-5xl'>Projects</h2>
+                    <h2 className='text-4xl font-bold inline border-b-4 border-primary-color/40 sm:text-5xl'>My Work</h2>
                     <p className='py-6'>Check out my best web applications here.</p>
                 </div>
 
